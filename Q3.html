@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q3 Solution</title>
+    <style>
+     /* Q3 style starts */    
+    .section-3{
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        align-items: center;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+        background-color: #2b1e16;
+    }
+    .swiggy-section {
+        margin: 10px 50px;
+        text-align: center;
+    }
+    .swiggy-section h4{
+        color: white;
+    }
+    .swiggy-section > img{
+        width: 150px;
+    }
+    .swiggy-section p{
+        color: #8c6e54;
+    }
+    .swiggy-heading{
+        margin-top: 60px;
+    }
+     /* Q3 style ends */
+
+     /* Q2 style starts */
+    body{
+            border: 2px solid black;
+        }
+        nav{
+            display: grid; 
+            grid-template-columns:repeat(3,1fr);
+            align-items: center;
+            max-width: 1200px;
+            margin: auto;
+            font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+        }
+        nav > img{
+            width: 50px;
+        }
+        .navdiv{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            align-items: center;
+            text-decoration: none;
+            padding-right: 50px;
+            
+        }
+        .navbut:hover{
+            color: red;
+            font-weight: bold;
+        }
+        nav > button{
+            margin-left: 60%;
+            background-color: #0fdb6b;
+            font-weight: bold;
+            padding: 10px 0px;
+            border: 0;
+            border-radius: 5px;
+        }
+        /* Q2 Style ends */
+
+        /* Q1 style starts */
+        .container{
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        
+            padding: 10px;
+            gap:20px;
+            align-items: center;
+            font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+        }
+        .text-section{
+            padding: 0px 50px;
+        }
+        .text-section h1{
+            font-size: 40px;
+        }
+        .text-section p{
+            color: #4c665d;
+        }
+        .image-section{
+            background-color: yellow;
+            height: 100%;
+            max-height: 90vh;
+        }
+        .text-section > button{
+            padding: 10px 50px;
+            border: none;
+            background-color: black;
+            color: white;
+            margin-top: 30px;
+            font-size: large;
+        }
+        .image-section img {
+        width: 70%;
+        height: 100%;
+    }
+    /* Q1 style ends */        
+
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <img src="./images/Q2logo.png" alt="logo">
+    <div class="navdiv">
+        <div class="navbut">Home</div>
+        <div class="navbut">About</div>
+        <div class="navbut">Contact</div>
+    </div>
+        <button>login</button>
+</nav>
+<div class="container">
+    <section class="text-section">
+        <h1>Healthy Food</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius aliquid sint ullam eveniet nesciunt quae recusandae, necessitatibus possimus obcaecati corrupti dicta delectus culpa eaque minima, qui perspiciatis nihil omnis quos.</p>
+        <button>Read More</button>
+    </section>
+    <section class="image-section">
+        <img src="./images/fruits.png" alt="fruits">
+    </section>
+    
+</div>
+
+<section class="section-3">
+    <div class="swiggy-section">
+        <img src="./images/Q3img1.png" alt="">
+        <h4>No Minimum Order</h4>
+        <p>Order in for yourself or for the group, with no restrictions on order value</p>
+    </div>
+    <div class="swiggy-section">
+        <img src="./images/Q3img2.png" alt="">
+        <h4>Live Order Tracking</h4>
+        <p>Know where your order is at all times, from the restaurants to your doorstep </p>
+    </div>
+    <div  class="swiggy-section">
+        <img src="./images/Q3img3.png" alt="">
+        <h4 class="swiggy-heading">Lightning-Fast Delivery</h4>
+        <p>Experience Swiggy's superfast delivery for food delivered fresh & on time</p>
+    </div>
+</section>
+
+    
+</body>
+</html>

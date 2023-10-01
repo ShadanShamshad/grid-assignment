@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q7 Solution</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns:repeat(3,1fr);
+            grid-template-rows:repeat(2,250px);
+            gap: 20px;
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 20px;
+        }
+        img {
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        }
+        .photo1{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+        .photo2{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        .photo3{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+        .photo4{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+        .photo5{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+        .photo6{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+    </style>
+</head>
+<body>
+        <div class="container">
+            <img class="photo1" src="./images/boat.png" alt="boat">
+            <img class="photo2" src="./images/sea.png" alt="sea">
+            <img class="photo3" src="./images/sunset.png" alt="sunset">
+            <img class="photo4" src="./images/white mountain.png" alt="white mountain">
+            <img class="photo5" src="./images/boat.png" alt="boat">
+            <img class="photo6" src="./images/blue mountain.png" alt="blue mountain">
+        </div>
+</body>
+</html>

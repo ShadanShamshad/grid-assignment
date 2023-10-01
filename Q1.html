@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Solution</title>
+    <style>
+        .container{
+            max-width: 1200px;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            border: 2px solid black;
+            padding: 10px;
+            gap:20px;
+            align-items: center;
+            font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        }
+        .text-section{
+            padding: 0px 50px;
+        }
+        .text-section h1{
+            font-size: 40px;
+        }
+        .text-section p{
+            color: #4c665d;
+        }
+        .image-section{
+            background-color: yellow;
+            height: 100%;
+            max-height: 90vh;
+        }
+        .text-section > button{
+            padding: 10px 50px;
+            border: none;
+            background-color: black;
+            color: white;
+            margin-top: 30px;
+            font-size: large;
+        }
+        .image-section img {
+        width: 70%;
+        height: 100%;
+    }
+    </style>
+</head>
+<body>
+        <div class="container">
+            <section class="text-section">
+                <h1>Healthy Food</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius aliquid sint ullam eveniet nesciunt quae recusandae, necessitatibus possimus obcaecati corrupti dicta delectus culpa eaque minima, qui perspiciatis nihil omnis quos.</p>
+                <button>Read More</button>
+            </section>
+            <section class="image-section">
+                <img src="./images/fruits.png" alt="fruits">
+            </section>
+            
+        </div>
+</body>
+</html>
